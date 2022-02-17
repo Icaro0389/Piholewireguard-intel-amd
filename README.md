@@ -54,7 +54,7 @@ even more conveniently.
 
 ```Shell
 git clone https://github.com/Icaro0389/Piholewireguard-intel-amd.git
-bash pivpn/auto_install/install.sh
+bash Piholewireguard-intel-amd/auto_install/install.sh
 ```
 
 ### How it works
