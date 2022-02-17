@@ -1,10 +1,13 @@
 ![Pivpn Banner](pivpnbanner.png)
 
-![Logos](logos.jpg)
 
 **[PIVPN.IO](https://pivpn.io)** | **[DOCUMENTATION](https://docs.pivpn.io)**
 
-
+ ## This is not the official repository. I change the installation script to bypass automatic installation of OpenVPN on a non PI board.
+ 
+ # Official Repository can be found: https://github.com/pivpn/pivpn
+ 
+ 
 
 ## About
 
@@ -18,19 +21,12 @@ into a VPN server using Wireguard.
 Have you been looking for a good guide or tutorial for setting up a VPN server on a Raspberry Pi or Ubuntu based server?  
 Run this script and you don't need a guide or tutorial, this will do it all for you, in a fraction of the time and with hardened security settings in place by default.  
 
-The master branch of this script installs and configures WireGuard on Raspbian, Debian or Ubuntu.
-
-We recommend using the latest Raspbian Lite image on a Raspberry Pi in your home so you can VPN into your home from a unsecure remote locations and safely use the internet.  
-However, the scripts do try to detect different distributions and make adjustments accordingly.  
-They should work on the majority of Ubuntu and Debian based distributions including those using UFW by default instead of raw iptables.  
 
 This scripts primary mission in life is to allow a user to have a home VPN for as cost effective as possible and without being a technical wizard.  
 Hence the design of pivpn to work on a Raspberry Pi ($35) and then one command installer.  
 Followed by easy management of the VPN thereafter with the 'pivpn' command.  
 That being said...
 
-> This will also work on a free-tier Amazon AWS server using Ubuntu or Debian.  I don't want to support every scenario there but getting it to run and install successfully on a free server in the cloud was also important.  
-Many people have untrustworthy ISP's so running on a server elsewhere means you can connect to the VPN from home and your ISP will just see encrypted traffic as your traffic will now be leaving out the Amazon infrastructure.
 
 ## Prerequisites
 
