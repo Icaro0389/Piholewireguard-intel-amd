@@ -5,7 +5,7 @@
 
  ## This is not the official repository. I change the installation script to bypass automatic installation of OpenVPN on a non PI board.
  
- # Official Repository can be found: https://github.com/pivpn/pivpn
+ ## Official Repository can be found: https://github.com/pivpn/pivpn
  
  
 
