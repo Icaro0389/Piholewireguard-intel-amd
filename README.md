@@ -53,7 +53,7 @@ even more conveniently.
 **Method 1 (clone repo)**
 
 ```Shell
-git clone https://github.com/pivpn/pivpn.git
+git clone https://github.com/Icaro0389/Piholewireguard-intel-amd.git
 bash pivpn/auto_install/install.sh
 ```
 
